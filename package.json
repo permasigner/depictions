@@ -1,0 +1,22 @@
+{
+  "name": "permasigner-depictions",
+  "version": "1.0.0",
+  "description": "Give depictions to permasigned apps.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "Nebula",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "fastify": "^4.3.0",
+    "liquidjs": "^9.39.2",
+    "point-of-view": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
